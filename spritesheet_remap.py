@@ -1,8 +1,8 @@
 # Cantersoft
 # Rearranges the tiles in an image generated from an 8x16 NES CHRROM into a visually intelligible and adjacent format for editing; unarranges the tiles back into the original format.
 
-# Rearrange a spritesheet:				python sprite_remap.py remap "image_generated_from_CHRROM.bmp"
-# Unarrange into the original format:	python sprite_remap.py unremap "image_generated_from_CHRROM_output.bmp"	
+# Rearrange a spritesheet:				python spritesheet_remap.py remap "image_generated_from_CHRROM.bmp"
+# Unarrange into the original format:	python spritesheet_remap.py unremap "image_generated_from_CHRROM_output.bmp"	
 
 import os
 import sys
